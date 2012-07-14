@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86C3E40F15B1D06200316991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C3E40E15B1D06200316991 /* UIKit.framework */; };
+		86C3E41115B1D06200316991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C3E41015B1D06200316991 /* Foundation.framework */; };
+		86C3E41315B1D06200316991 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C3E41215B1D06200316991 /* CoreGraphics.framework */; };
+		86C3E41915B1D06200316991 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86C3E41715B1D06200316991 /* InfoPlist.strings */; };
+		86C3E41B15B1D06200316991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3E41A15B1D06200316991 /* main.m */; };
+		86C3E41F15B1D06200316991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3E41E15B1D06200316991 /* AppDelegate.m */; };
+		86C3E42215B1D06200316991 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3E42115B1D06200316991 /* ViewController.m */; };
+		86C3E42515B1D06200316991 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86C3E42315B1D06200316991 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		86C3E40A15B1D06200316991 /* MCSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86C3E40E15B1D06200316991 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		86C3E41015B1D06200316991 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		86C3E41215B1D06200316991 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		86C3E41615B1D06200316991 /* MCSoundBoard-Info.plist */ = {isa = PBXFileReference; path = "MCSoundBoard-Info.plist"; sourceTree = "<group>"; };
+		86C3E41815B1D06200316991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		86C3E41A15B1D06200316991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86C3E41C15B1D06200316991 /* MCSoundBoard-Prefix.pch */ = {isa = PBXFileReference; path = "MCSoundBoard-Prefix.pch"; sourceTree = "<group>"; };
+		86C3E41D15B1D06200316991 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		86C3E41E15B1D06200316991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		86C3E42015B1D06200316991 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		86C3E42115B1D06200316991 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		86C3E42415B1D06200316991 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86C3E40715B1D06200316991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C3E40F15B1D06200316991 /* UIKit.framework in Frameworks */,
+				86C3E41115B1D06200316991 /* Foundation.framework in Frameworks */,
+				86C3E41315B1D06200316991 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86C3E3FF15B1D06100316991 = {
+			isa = PBXGroup;
+			children = (
+				86C3E41415B1D06200316991 /* MCSoundBoard */,
+				86C3E40D15B1D06200316991 /* Frameworks */,
+				86C3E40B15B1D06200316991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86C3E40B15B1D06200316991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86C3E40A15B1D06200316991 /* MCSoundBoard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86C3E40D15B1D06200316991 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86C3E40E15B1D06200316991 /* UIKit.framework */,
+				86C3E41015B1D06200316991 /* Foundation.framework */,
+				86C3E41215B1D06200316991 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		86C3E41415B1D06200316991 /* MCSoundBoard */ = {
+			isa = PBXGroup;
+			children = (
+				86C3E41D15B1D06200316991 /* AppDelegate.h */,
+				86C3E41E15B1D06200316991 /* AppDelegate.m */,
+				86C3E42015B1D06200316991 /* ViewController.h */,
+				86C3E42115B1D06200316991 /* ViewController.m */,
+				86C3E42315B1D06200316991 /* ViewController.xib */,
+				86C3E41515B1D06200316991 /* Supporting Files */,
+			);
+			path = MCSoundBoard;
+			sourceTree = "<group>";
+		};
+		86C3E41515B1D06200316991 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				86C3E41615B1D06200316991 /* MCSoundBoard-Info.plist */,
+				86C3E41715B1D06200316991 /* InfoPlist.strings */,
+				86C3E41A15B1D06200316991 /* main.m */,
+				86C3E41C15B1D06200316991 /* MCSoundBoard-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86C3E40915B1D06200316991 /* MCSoundBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86C3E42815B1D06200316991 /* Build configuration list for PBXNativeTarget "MCSoundBoard" */;
+			buildPhases = (
+				86C3E40615B1D06200316991 /* Sources */,
+				86C3E40715B1D06200316991 /* Frameworks */,
+				86C3E40815B1D06200316991 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MCSoundBoard;
+			productName = MCSoundBoard;
+			productReference = 86C3E40A15B1D06200316991 /* MCSoundBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86C3E40115B1D06100316991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 86C3E40415B1D06100316991 /* Build configuration list for PBXProject "MCSoundBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 86C3E3FF15B1D06100316991;
+			productRefGroup = 86C3E40B15B1D06200316991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86C3E40915B1D06200316991 /* MCSoundBoard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86C3E40815B1D06200316991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C3E41915B1D06200316991 /* InfoPlist.strings in Resources */,
+				86C3E42515B1D06200316991 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86C3E40615B1D06200316991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86C3E41B15B1D06200316991 /* main.m in Sources */,
+				86C3E41F15B1D06200316991 /* AppDelegate.m in Sources */,
+				86C3E42215B1D06200316991 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		86C3E41715B1D06200316991 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C3E41815B1D06200316991 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		86C3E42315B1D06200316991 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86C3E42415B1D06200316991 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86C3E42615B1D06200316991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		86C3E42715B1D06200316991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86C3E42915B1D06200316991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCSoundBoard/MCSoundBoard-Prefix.pch";
+				INFOPLIST_FILE = "MCSoundBoard/MCSoundBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		86C3E42A15B1D06200316991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCSoundBoard/MCSoundBoard-Prefix.pch";
+				INFOPLIST_FILE = "MCSoundBoard/MCSoundBoard-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86C3E40415B1D06100316991 /* Build configuration list for PBXProject "MCSoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C3E42615B1D06200316991 /* Debug */,
+				86C3E42715B1D06200316991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86C3E42815B1D06200316991 /* Build configuration list for PBXNativeTarget "MCSoundBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86C3E42915B1D06200316991 /* Debug */,
+				86C3E42A15B1D06200316991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86C3E40115B1D06100316991 /* Project object */;
+}
