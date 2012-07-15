@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		863B726E15B2A35900C12159 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863B726D15B2A35900C12159 /* AudioToolbox.framework */; };
+		863B727515B2AEDE00C12159 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 863B727415B2AEDE00C12159 /* AVFoundation.framework */; };
+		863B727715B2BC6E00C12159 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 863B727615B2BC6E00C12159 /* README.md */; };
+		863B728015B2C82E00C12159 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 863B727D15B2C82E00C12159 /* ding.wav */; };
+		863B728115B2C82E00C12159 /* loop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 863B727E15B2C82E00C12159 /* loop.mp3 */; };
+		863B728215B2C82E00C12159 /* play.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 863B727F15B2C82E00C12159 /* play.mp3 */; };
 		86C3E40F15B1D06200316991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C3E40E15B1D06200316991 /* UIKit.framework */; };
 		86C3E41115B1D06200316991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C3E41015B1D06200316991 /* Foundation.framework */; };
 		86C3E41315B1D06200316991 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C3E41215B1D06200316991 /* CoreGraphics.framework */; };
@@ -15,22 +21,31 @@
 		86C3E41F15B1D06200316991 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3E41E15B1D06200316991 /* AppDelegate.m */; };
 		86C3E42215B1D06200316991 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3E42115B1D06200316991 /* ViewController.m */; };
 		86C3E42515B1D06200316991 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86C3E42315B1D06200316991 /* ViewController.xib */; };
+		86C3E42E15B1D0D300316991 /* MCSoundBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 86C3E42D15B1D0D300316991 /* MCSoundBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		863B726D15B2A35900C12159 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		863B727415B2AEDE00C12159 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		863B727615B2BC6E00C12159 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		863B727D15B2C82E00C12159 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ding.wav; path = Sounds/ding.wav; sourceTree = "<group>"; };
+		863B727E15B2C82E00C12159 /* loop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = loop.mp3; path = Sounds/loop.mp3; sourceTree = "<group>"; };
+		863B727F15B2C82E00C12159 /* play.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = play.mp3; path = Sounds/play.mp3; sourceTree = "<group>"; };
 		86C3E40A15B1D06200316991 /* MCSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C3E40E15B1D06200316991 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		86C3E41015B1D06200316991 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		86C3E41215B1D06200316991 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		86C3E41615B1D06200316991 /* MCSoundBoard-Info.plist */ = {isa = PBXFileReference; path = "MCSoundBoard-Info.plist"; sourceTree = "<group>"; };
+		86C3E41615B1D06200316991 /* MCSoundBoard-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCSoundBoard-Info.plist"; sourceTree = "<group>"; };
 		86C3E41815B1D06200316991 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		86C3E41A15B1D06200316991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		86C3E41C15B1D06200316991 /* MCSoundBoard-Prefix.pch */ = {isa = PBXFileReference; path = "MCSoundBoard-Prefix.pch"; sourceTree = "<group>"; };
-		86C3E41D15B1D06200316991 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		86C3E41C15B1D06200316991 /* MCSoundBoard-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCSoundBoard-Prefix.pch"; sourceTree = "<group>"; };
+		86C3E41D15B1D06200316991 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		86C3E41E15B1D06200316991 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		86C3E42015B1D06200316991 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		86C3E42015B1D06200316991 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		86C3E42115B1D06200316991 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		86C3E42415B1D06200316991 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		86C3E42C15B1D0D300316991 /* MCSoundBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MCSoundBoard.h; path = Classes/MCSoundBoard.h; sourceTree = "<group>"; };
+		86C3E42D15B1D0D300316991 /* MCSoundBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MCSoundBoard.m; path = Classes/MCSoundBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				863B727515B2AEDE00C12159 /* AVFoundation.framework in Frameworks */,
+				863B726E15B2A35900C12159 /* AudioToolbox.framework in Frameworks */,
 				86C3E40F15B1D06200316991 /* UIKit.framework in Frameworks */,
 				86C3E41115B1D06200316991 /* Foundation.framework in Frameworks */,
 				86C3E41315B1D06200316991 /* CoreGraphics.framework in Frameworks */,
@@ -47,9 +64,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		863B727815B2BF7800C12159 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				863B727D15B2C82E00C12159 /* ding.wav */,
+				863B727E15B2C82E00C12159 /* loop.mp3 */,
+				863B727F15B2C82E00C12159 /* play.mp3 */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
 		86C3E3FF15B1D06100316991 = {
 			isa = PBXGroup;
 			children = (
+				863B727615B2BC6E00C12159 /* README.md */,
+				863B727815B2BF7800C12159 /* Sounds */,
+				86C3E42B15B1D0AF00316991 /* Classes */,
 				86C3E41415B1D06200316991 /* MCSoundBoard */,
 				86C3E40D15B1D06200316991 /* Frameworks */,
 				86C3E40B15B1D06200316991 /* Products */,
@@ -67,6 +97,8 @@
 		86C3E40D15B1D06200316991 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				863B727415B2AEDE00C12159 /* AVFoundation.framework */,
+				863B726D15B2A35900C12159 /* AudioToolbox.framework */,
 				86C3E40E15B1D06200316991 /* UIKit.framework */,
 				86C3E41015B1D06200316991 /* Foundation.framework */,
 				86C3E41215B1D06200316991 /* CoreGraphics.framework */,
@@ -98,6 +130,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		86C3E42B15B1D0AF00316991 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				86C3E42C15B1D0D300316991 /* MCSoundBoard.h */,
+				86C3E42D15B1D0D300316991 /* MCSoundBoard.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,6 +166,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = MobileCreators;
 			};
 			buildConfigurationList = 86C3E40415B1D06100316991 /* Build configuration list for PBXProject "MCSoundBoard" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -150,6 +192,10 @@
 			files = (
 				86C3E41915B1D06200316991 /* InfoPlist.strings in Resources */,
 				86C3E42515B1D06200316991 /* ViewController.xib in Resources */,
+				863B727715B2BC6E00C12159 /* README.md in Resources */,
+				863B728015B2C82E00C12159 /* ding.wav in Resources */,
+				863B728115B2C82E00C12159 /* loop.mp3 in Resources */,
+				863B728215B2C82E00C12159 /* play.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +209,7 @@
 				86C3E41B15B1D06200316991 /* main.m in Sources */,
 				86C3E41F15B1D06200316991 /* AppDelegate.m in Sources */,
 				86C3E42215B1D06200316991 /* ViewController.m in Sources */,
+				86C3E42E15B1D0D300316991 /* MCSoundBoard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +255,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -226,7 +273,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -274,6 +321,7 @@
 				86C3E42A15B1D06200316991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
