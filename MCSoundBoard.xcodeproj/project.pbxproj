@@ -13,6 +13,7 @@
 		863B728015B2C82E00C12159 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 863B727D15B2C82E00C12159 /* ding.wav */; };
 		863B728115B2C82E00C12159 /* loop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 863B727E15B2C82E00C12159 /* loop.mp3 */; };
 		863B728215B2C82E00C12159 /* play.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 863B727F15B2C82E00C12159 /* play.mp3 */; };
+		863B728415B2D6E400C12159 /* LICENSE.md in Resources */ = {isa = PBXBuildFile; fileRef = 863B728315B2D6E400C12159 /* LICENSE.md */; };
 		86C3E40F15B1D06200316991 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C3E40E15B1D06200316991 /* UIKit.framework */; };
 		86C3E41115B1D06200316991 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C3E41015B1D06200316991 /* Foundation.framework */; };
 		86C3E41315B1D06200316991 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86C3E41215B1D06200316991 /* CoreGraphics.framework */; };
@@ -31,6 +32,7 @@
 		863B727D15B2C82E00C12159 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = ding.wav; path = Sounds/ding.wav; sourceTree = "<group>"; };
 		863B727E15B2C82E00C12159 /* loop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = loop.mp3; path = Sounds/loop.mp3; sourceTree = "<group>"; };
 		863B727F15B2C82E00C12159 /* play.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = play.mp3; path = Sounds/play.mp3; sourceTree = "<group>"; };
+		863B728315B2D6E400C12159 /* LICENSE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.md; sourceTree = "<group>"; };
 		86C3E40A15B1D06200316991 /* MCSoundBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MCSoundBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C3E40E15B1D06200316991 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		86C3E41015B1D06200316991 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +79,7 @@
 		86C3E3FF15B1D06100316991 = {
 			isa = PBXGroup;
 			children = (
+				863B728315B2D6E400C12159 /* LICENSE.md */,
 				863B727615B2BC6E00C12159 /* README.md */,
 				863B727815B2BF7800C12159 /* Sounds */,
 				86C3E42B15B1D0AF00316991 /* Classes */,
@@ -196,6 +199,7 @@
 				863B728015B2C82E00C12159 /* ding.wav in Resources */,
 				863B728115B2C82E00C12159 /* loop.mp3 in Resources */,
 				863B728215B2C82E00C12159 /* play.mp3 in Resources */,
+				863B728415B2D6E400C12159 /* LICENSE.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
