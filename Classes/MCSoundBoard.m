@@ -56,6 +56,7 @@
 {
     SystemSoundID soundId = [(NSNumber *)[_sounds objectForKey:key] intValue];
     AudioServicesPlaySystemSound(soundId);
+    [[NSNotificationCenter defaultCenter] postNotificationName:MCSOUNDBOARD_SOUND_PLAYED_NOTIFICATION object:key];
 }
 
 + (void)playSoundForKey:(id)key
@@ -104,6 +105,8 @@
     }
     
     [player play];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:MCSOUNDBOARD_AUDIO_STARTED_NOTIFICATION object:key];
 }
 
 + (void)playAudioForKey:(id)key fadeInInterval:(NSTimeInterval)fadeInInterval
@@ -127,7 +130,7 @@
     
     if (volume == 0.0) {
         [timer invalidate];
-        [player pause];
+        [player stop];
     }
 }
 
@@ -146,6 +149,8 @@
     } else {
         [player stop];
     }
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:MCSOUNDBOARD_AUDIO_STOPPED_NOTIFICATION object:key];
 }
 
 + (void)stopAudioForKey:(id)key fadeOutInterval:(NSTimeInterval)fadeOutInterval
@@ -169,7 +174,7 @@
     
     if (volume == 0.0) {
         [timer invalidate];
-        [player stop];
+        [player pause];
     }
 }
 
@@ -188,6 +193,8 @@
     } else {
         [player pause];
     }
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:MCSOUNDBOARD_AUDIO_PAUSED_NOTIFICATION object:key];
 }
 
 
