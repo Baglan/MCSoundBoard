@@ -32,4 +32,6 @@
 
 + (AVAudioPlayer *)audioPlayerForKey:(id)key;
 
++ (void)loopAudioForKey:(id)key numberOfLoops:(NSInteger)loops;
+
 @end

@@ -53,3 +53,10 @@ For longer audio, this class uses [AVAudioPlayer](http://developer.apple.com/lib
     AVAudioPlayer *player = [MCSoundBoard audioPlayerForKey:@"play"];
     player.numberOfLoops = -1;  // Endless looping
 ```
+
+Alternatively, if number of loops is all you want to change there is a convenience method for that:
+
+
+```
+    [MCSoundBoard loopAudioForKey:@"play" numberOfLoops:-1];
+```

@@ -219,4 +219,10 @@
     return [[self sharedInstance] audioPlayerForKey:key];
 }
 
++ (void)loopAudioForKey:(id)key numberOfLoops:(NSInteger)loops
+{
+    AVAudioPlayer * player = [self audioPlayerForKey:key];
+    player.numberOfLoops = loops;
+}
+
 @end
